@@ -1,0 +1,170 @@
+/* for home*/
+
+  #section-nav{
+    background-color: #838e9e;
+  }
+  .jumbotron-fluid {
+    background: url('/assets/jumbotron-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+  }
+  .jumbotron-container{
+    text-align: center;
+    bottom: 0;
+  }
+  .grid{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #features {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  
+  #features .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
+  
+  #features .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+  }
+  
+  .desc > h2 {
+    font-size: 30px;
+  }
+  
+  .section-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: inherit;
+    padding: 10px;
+    justify-content: flex-end;
+  }
+  .section-footer > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  .section-footer > ul > li {
+    padding: 0 10px;
+    list-style: none; 
+  }
+  a {
+      text-decoration: none;
+      color: black;
+  }
+  .section-footer > span {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+    font-size: 0.9em;
+  }
+  
+
+/*for pricing*/
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 20px;
+}
+.card {
+  margin: auto;
+}
+
+/*for location*/
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.location-container > .page-title {
+  margin-bottom: 20px;
+}
+.location-container > .mapouter {
+  margin-bottom: 20px;
+}
+
+/*for contact*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.mail-btn {
+  margin: 10px;
+}
+.ig-btn {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  margin: 20px;
+}
+.fb-btn {
+  background: #3241a6;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container > .page-title, .social-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 550px) {
+    #features .desc {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 100%;
+    }
+    .desc > h2 {
+      font-size: 30px;
+    }
+    .desc > p {
+      font-size: 15px;
+    }
+    .material-icons {
+      display: none;
+    }
+    .jumbotron-container > h1 {
+      font-size: 40px;
+    }
+    .jumbotron-container > p {
+      font-size: 15px;
+    }
+    .card-container {
+      flex-direction: column;
+    }
+    .card {
+      margin-top: 10px;
+    }
+  }
