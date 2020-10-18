@@ -4,7 +4,7 @@
     background-color: #838e9e;
   }
   .jumbotron-fluid {
-    background: url('/assets/jumbotron-bg.jpg');
+    background: url('https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80g');
     background-size: cover;
     background-position: center center;
     color: white;
